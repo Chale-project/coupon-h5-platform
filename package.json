@@ -1,0 +1,37 @@
+{
+  "name": "coupon-h5-platform",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "vue": "^2.5.21",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.3.0",
+    "@vue/cli-service": "^3.3.0",
+    "babel-plugin-import": "^1.11.0",
+    "flyio": "^0.6.9",
+    "less": "^3.0.4",
+    "less-loader": "^4.1.0",
+    "md5": "^2.2.1",
+    "mescroll.js": "^1.4.0",
+    "vant": "^1.6.9",
+    "vue-ls": "^3.2.0",
+    "vue-template-compiler": "^2.5.21"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
